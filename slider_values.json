@@ -1,0 +1,47 @@
+[
+    {
+        "speed": 1.0,
+        "size": 8,
+        "range_low": 0,
+        "range_hi": 12,
+        "x_offset": 0.25,
+        "y_offset": 0.0,
+        "rhy_irr": 0.0
+    },
+    {
+        "speed": 1.0,
+        "size": 6,
+        "range_low": 6,
+        "range_hi": 12,
+        "x_offset": 0.25,
+        "y_offset": 0.0,
+        "rhy_irr": 0.0
+    },
+    {
+        "speed": 0.5,
+        "size": 10,
+        "range_low": 2,
+        "range_hi": 7,
+        "x_offset": 3.25,
+        "y_offset": -1.5,
+        "rhy_irr": 0.3
+    },
+    {
+        "speed": 1.1,
+        "size": 4,
+        "range_low": 4,
+        "range_hi": 10,
+        "x_offset": 5.1,
+        "y_offset": -3.0,
+        "rhy_irr": 0.45
+    },
+    {
+        "speed": 1.6,
+        "size": 4,
+        "range_low": 6,
+        "range_hi": 10,
+        "x_offset": 3.05,
+        "y_offset": -3.0,
+        "rhy_irr": 0.45
+    }
+]
