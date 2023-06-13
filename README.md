@@ -5,7 +5,7 @@ This is a project that relates to my compositional practice. The idea is to trai
 <br>
 <br>
 <p align="center">
-<img width="646" alt="Screen Shot 2023-06-12 at 8 35 55 PM" src="https://github.com/hayakzan/MLP-notations/assets/61164329/722b5d78-b56d-41d6-9ac5-06eee9acc8c4">
+<img width="646" alt="Screen Shot 2023-06-12 at 8 35 55 PM" src="https://github.com/hayakzan/MLP-notations/assets/61164329/722b5d78-b56d-41d6-9ac5-06eee9acc8c4"> 
 </p>
 <br>
 
