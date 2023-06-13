@@ -12,7 +12,7 @@ This is a project that relates to my compositional practice. The idea is to trai
 ## Creating training data
 MLP-notations_GENERATING DATA.ipynb is used to generate new notations and prepare for the training.
 
-The 2-dimensional input can be provided in an interactive way by using `/xy_data/for_training.py`. The code allows you to draw a path by clicking on a 2D space. This path is used as input features for the MLP network. Note that this code runs under a local Python environment (in lieu of Colab).
+The 2-dimensional input can be provided in an interactive way by using `/xy_data/for_training.py`. The code allows you to draw a path by clicking on a 2D space. This path is used as input features for the MLP network. Note that this code runs under a local Python environment (in lieu of a cloud-based environment).
 <br>
 <br>
 <p align="center">  
