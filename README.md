@@ -33,7 +33,7 @@ Notational parameters are used as output features for the MLP network. At the mo
 
 The number of points created with the 2-dimensional interface (`for_training.py`) and the number of notation excerpts created with this notebook (`MLP-notations_GENERATING DATA.ipynb`) should be equal. This can be checked within this notebook and the missing data can be added manually or via filling in random values (see the notebook).
 <br>
-The rest of the code uploads the files to Google Colab (permission required).
+The rest of the code uploads the files to Google Drive (permission required).
 <br>
 
 ## Training & predicting
