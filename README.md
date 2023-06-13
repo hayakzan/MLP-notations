@@ -44,5 +44,8 @@ The rest of the code uploads the files to Google Drive (permission required).
 <img width="489" alt="Screen Shot 2023-06-12 at 11 55 20 PM" src="https://github.com/hayakzan/MLP-notations/assets/61164329/6bf3a99f-4a8e-4de0-82c6-143f31d51f85">
 </p>  
 <br>
-The model predicts a notational excerpt per each 2D input, and prints the results at the end. The next step involves transforming these first into MIDI files, then into .wav files in order to process them with networks with timbre-transfer capabilities.
+The model predicts a notational excerpt per each 2D input, and prints the results at the end. 
+<br>
 
+## Converting into MIDI/Waveform Audio File Format
+`MLP-notations_SYNTHESIS.ipynb` is used to convert the resultant notational excerpts into MIDI and .wav files. The next step is to process the .wav files with networks with timbre-transfer capabilities.
