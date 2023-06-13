@@ -6,7 +6,7 @@ This is a project that relates to my compositional practice. The idea is to trai
 <br>
 <p align="center">
 <img width="646" alt="Screen Shot 2023-06-12 at 8 35 55 PM" src="https://github.com/hayakzan/MLP-notations/assets/61164329/722b5d78-b56d-41d6-9ac5-06eee9acc8c4">
-<p>
+</p>
 <br>
 <br>
 <br>
@@ -19,7 +19,7 @@ The 2-dimensional input can be provided in an interactive way by using `/xy_data
 <br>
 <p align="center">  
 <img width="489" alt="Screen Shot 2023-06-12 at 8 47 15 PM" src="https://github.com/hayakzan/MLP-notations/assets/61164329/a3b5eaae-abbe-40ab-898c-5907a7ff2d7c">
-<p>  
+</p>  
 <br>
 <br>
 <br>
@@ -28,10 +28,12 @@ Notational parameters are used as output features for the MLP network. At the mo
 <br>
 <p align="center">
 <img width="397" alt="Screen Shot 2023-06-12 at 8 42 36 PM" src="https://github.com/hayakzan/MLP-notations/assets/61164329/a478952d-c539-48cb-a004-e676b8e80c5c">
-<p>  
+</p>  
 <br>
 <br>
-![notation_1](https://github.com/hayakzan/MLP-notations/assets/61164329/407a6857-72cf-4d29-a0f4-07b8658c1b2e)
+<p align="center">  
+<img width="900" alt="Notation excerpt" src="https://github.com/hayakzan/MLP-notations/assets/61164329/407a6857-72cf-4d29-a0f4-07b8658c1b2e">
+</p>  
 <br>
 <br>
 The number of points created with the 2-dimensional interface (`for_training.py`) and the number of notation excerpts created with this notebook (`MLP-notations_GENERATING DATA.ipynb`) should be equal. This can be checked within this notebook and the missing data can be added manually or via filling in random values (see the notebook).
@@ -46,7 +48,7 @@ MLP-notations_TRAINING-PREDICTING.ipynb is used to train the network and to crea
 <br>
 <p align="center">  
 <img width="468" alt="Screen Shot 2023-06-12 at 9 36 17 PM" src="https://github.com/hayakzan/MLP-notations/assets/61164329/101a1848-021d-49d8-9bbe-fb90cff763f7">
-<p>  
+</p>  
 <br>
 <br>
 The model predicts a notational excerpt per each $(x, y)$ input, and prints the results at the end. The next step involves transforming these first into MIDI files, then into .wav files in order to process them with networks with timbre-transfer capabilities.
