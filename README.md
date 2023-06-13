@@ -42,5 +42,5 @@ MLP-notations_TRAINING-PREDICTING.ipynb is used to train the network and to crea
 <img width="468" alt="Screen Shot 2023-06-12 at 9 36 17 PM" src="https://github.com/hayakzan/MLP-notations/assets/61164329/101a1848-021d-49d8-9bbe-fb90cff763f7">
 </p>  
 <br>
-The model predicts a notational excerpt per each $(x, y)$ input, and prints the results at the end. The next step involves transforming these first into MIDI files, then into .wav files in order to process them with networks with timbre-transfer capabilities.
+The model predicts a notational excerpt per each 2D input, and prints the results at the end. The next step involves transforming these first into MIDI files, then into .wav files in order to process them with networks with timbre-transfer capabilities.
 
