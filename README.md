@@ -1,7 +1,7 @@
 # MLP-notations
 
 ## What is this?
-This is an ongoing project that relates to my compositional practice. The idea is to train a MLP network to generate $n$-dimensional notational parameter space from a 2-dimensional input $(x, y)$.
+This is a project that relates to my compositional practice. The idea is to train an MLP network to generate $n$-dimensional notational parameter space from a 2-dimensional input $(x, y)$. Please note that this is an ongoing project.
 
 <img width="646" alt="Screen Shot 2023-06-12 at 8 35 55 PM" src="https://github.com/hayakzan/MLP-notations/assets/61164329/722b5d78-b56d-41d6-9ac5-06eee9acc8c4">
 <br>
@@ -15,7 +15,6 @@ This 2-dimensional input can be provided in an interactive way by using `/xy_dat
 <br>
 <br>
 <img width="489" alt="Screen Shot 2023-06-12 at 8 47 15 PM" src="https://github.com/hayakzan/MLP-notations/assets/61164329/a3b5eaae-abbe-40ab-898c-5907a7ff2d7c">
-<img width="251" alt="Screen Shot 2023-06-12 at 8 48 57 PM" src="https://github.com/hayakzan/MLP-notations/assets/61164329/029011e8-af8b-4b92-81a2-2afa5cf61117">
 <br>
 <br>
 <br>
@@ -23,5 +22,23 @@ Notational parameters are used as output features for the MLP network. At the mo
 <br>
 <br>
 <img width="397" alt="Screen Shot 2023-06-12 at 8 42 36 PM" src="https://github.com/hayakzan/MLP-notations/assets/61164329/a478952d-c539-48cb-a004-e676b8e80c5c">
+<br>
+<br>
+![notation_1](https://github.com/hayakzan/MLP-notations/assets/61164329/137a687c-6910-4543-a8fa-6b2b8dc1728f)
+<br>
+<br>
+The number of points created with the 2-dimensional interface (`for_training.py`) and the number of notation excerpts created with this notebook (`MLP-notations_GENERATING DATA.ipynb`) should be equal. This can be checked within this notebook and the missing data can be added manually or via filling in random values (see the notebook).
+<br>
+<br>
+The rest of the code uploads the files to Google Colab (permission required).
+<br>
+<br>
+## Training & predicting
+MLP-notations_TRAINING-PREDICTING.ipynb is used to train the network and to create new notational excerpts via inference. After training is performed with the data created in the previous notebook, the 2D input for prediction is processed. Similar to the 2D input features for the training data, input features for the prediction is created with an interactive interface run locally (`for_predicting.py`). 
+<br>
+<br>
+<img width="468" alt="Screen Shot 2023-06-12 at 9 36 17 PM" src="https://github.com/hayakzan/MLP-notations/assets/61164329/101a1848-021d-49d8-9bbe-fb90cff763f7">
+<br>
+<br>
+The model predicts a notational excerpt per each $(x, y)$ input, and prints the results at the end. The next step involves transforming these first into MIDI files, then into .wav files in order to process them with networks with timbre-transfer capabilities.
 
-The 
