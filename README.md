@@ -48,4 +48,4 @@ The model predicts a notational excerpt per each 2D input, and prints the result
 <br>
 
 ## Converting into MIDI/Waveform Audio File Format
-`MLP-notations_SYNTHESIS.ipynb` is used to convert the resultant notational excerpts into MIDI and .wav files. The next step is to process the .wav files with networks with timbre-transfer capabilities.
+`MLP-notations_CONVERSION.ipynb` is used to convert the resultant notational excerpts into MIDI and .wav files. The next step is to process the .wav files with networks with timbre-transfer capabilities.
