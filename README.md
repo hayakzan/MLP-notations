@@ -38,8 +38,9 @@ The rest of the code uploads the files to Google Colab (permission required).
 ## Training & predicting
 MLP-notations_TRAINING-PREDICTING.ipynb is used to train the network and to create new notational excerpts via inference. After training is performed with the data created in the previous notebook, the 2D input for prediction is processed. Similar to the 2D input features for the training data, input features for the prediction is created with an interactive interface run locally (`for_predicting.py`). 
 <br>
+<br>
 <p align="center">  
-<img width="468" alt="Screen Shot 2023-06-12 at 9 36 17 PM" src="https://github.com/hayakzan/MLP-notations/assets/61164329/101a1848-021d-49d8-9bbe-fb90cff763f7">
+<img width="489" alt="Screen Shot 2023-06-12 at 11 55 20 PM" src="https://github.com/hayakzan/MLP-notations/assets/61164329/6bf3a99f-4a8e-4de0-82c6-143f31d51f85">
 </p>  
 <br>
 The model predicts a notational excerpt per each 2D input, and prints the results at the end. The next step involves transforming these first into MIDI files, then into .wav files in order to process them with networks with timbre-transfer capabilities.
