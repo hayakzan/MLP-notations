@@ -2,7 +2,7 @@
 
 ## What is this?
 This is a project that relates to my compositional practice. The idea is to train an MLP network to generate $n$-dimensional notational parameter space from a 2-dimensional input $(x, y)$. Please note that this is an ongoing project.
-
+<br>
 <img width="646" alt="Screen Shot 2023-06-12 at 8 35 55 PM" src="https://github.com/hayakzan/MLP-notations/assets/61164329/722b5d78-b56d-41d6-9ac5-06eee9acc8c4">
 <br>
 <br>
@@ -11,7 +11,7 @@ This is a project that relates to my compositional practice. The idea is to trai
 ## Creating training data
 MLP-notations_GENERATING DATA.ipynb is used to generate new notations and prepare for the training.
 
-This 2-dimensional input can be provided in an interactive way by using `/xy_data/for_training.py`. The code allows you to draw a path by clicking on a 2D space. This path is used as input features for the MLP network. Note that this code runs under a local Python environment (in lieu of Colab).
+The 2-dimensional input can be provided in an interactive way by using `/xy_data/for_training.py`. The code allows you to draw a path by clicking on a 2D space. This path is used as input features for the MLP network. Note that this code runs under a local Python environment (in lieu of Colab).
 <br>
 <br>
 <img width="489" alt="Screen Shot 2023-06-12 at 8 47 15 PM" src="https://github.com/hayakzan/MLP-notations/assets/61164329/a3b5eaae-abbe-40ab-898c-5907a7ff2d7c">
