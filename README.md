@@ -19,7 +19,7 @@ The 2-dimensional input can be provided in an interactive way by using `/xy_data
 <img width="489" alt="Screen Shot 2023-06-12 at 8 47 15 PM" src="https://github.com/hayakzan/MLP-notations/assets/61164329/a3b5eaae-abbe-40ab-898c-5907a7ff2d7c">
 </p>  
 <br>
-Notational parameters are used as output features for the MLP network. At the moment, there are 8 notational parameters, controlling the durations between the notes, number of notes, pitch range, offsets in both dimensions, as well as rhythmic irregularity with a standard deviation value. When the SD = 0, the rhythmic pulse becomes regular. 
+Notational parameters are used as output features for the MLP network. At the moment, there are six notational parameters, controlling the durations between the notes, number of notes, pitch range, offsets in both dimensions, as well as rhythmic irregularity with a standard deviation value. When the SD = 0, the rhythmic pulse becomes regular. 
 <br>
 <br>
 <p align="center">
