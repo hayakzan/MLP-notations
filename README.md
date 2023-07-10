@@ -1,7 +1,7 @@
 # MLP-notations
 
 ## What is this?
-This is a project that relates to my compositional practice. The idea is to train an MLP network to generate $n$-dimensional notational parameter space from a 2-dimensional input $(x, y)$. Please note that this is an ongoing project.
+This is a project that relates to my compositional practice. The idea is to train an MLP network to generate $n$-dimensional notational parameter space from a 2-dimensional input $(x, y)$. This is an ongoing project.
 <br>
 <br>
 <p align="center">
