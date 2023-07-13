@@ -27,7 +27,7 @@ Notational parameters are used as output features for the MLP network. At the mo
 </p>  
 <br>
 <p align="center">  
-<img width="900" alt="Notation excerpt" src="https://github.com/hayakzan/MLP-notations/assets/61164329/407a6857-72cf-4d29-a0f4-07b8658c1b2e">
+<img width="900" alt="example" src="https://github.com/hayakzan/MLP-notations/assets/61164329/7d0e6049-9b34-4be8-b715-b813ca7087c6">
 </p>  
 <br>
 
