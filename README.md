@@ -11,8 +11,8 @@ This is a project that relates to my compositional practice. The idea is to trai
 
 `MLP_notations_generate.ipynb` is used to generate notations as dataset. The training and testing data provided here in `/data/train_xyz.json` and `/data/predict_xyz.json` is small, and only for a quick demonstration. 
 
-<br>
 The training data (i.e. `/data/train_xyz.json`) and testing data (i.e. `/data/predict_xyz.json`) can be created via adding points in a 3D space by using `MLP-notation datasets.ipynb`. As for now, `MLP-notation datasets.ipynb` only works under a local Python environment such as JupyterLab due to its callback functions.
+
 <br>
 <br>
 <p align="center">
@@ -21,3 +21,12 @@ The training data (i.e. `/data/train_xyz.json`) and testing data (i.e. `/data/pr
 <br>
 
 As the 3D points provide input features, the notational parameters constitute output features for the MLP network. At the moment, there are 25 notational parameters. 
+
+
+`MLP-notations_training_predicting.ipynb` is used to train the network and to create new notational excerpts via inference. After training is performed with the data created in the previous notebook, the 3D input for prediction is processed. Similar to the 3D input features for the training data, input features for the prediction is created with an interactive interface run locally (`MLP-notation datasets.ipynb`, scroll down to find the interface for prediction data creation). 
+
+The model predicts a notational excerpt per each 3D input, and prints the results at the end. 
+
+![vln1002_1](https://github.com/hayakzan/MLP-notations/assets/61164329/e240f06f-27dd-428c-9744-cdebe57889fa)
+
+It is possible to export resultant data into another environment such as SuperCollider. A code snippet that achieves this will be added here.
